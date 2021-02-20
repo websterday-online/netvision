@@ -1,0 +1,38 @@
+{
+  "header": {
+    "for-home": "Для дома",
+    "for-business": "Для бизнеса",
+    "log-in": "Войти в почту"
+  },
+  "language": {
+    "lv": "Lat",
+    "ru": "Рус"
+  },
+  "city-select": {
+    "all-latvia": "Вся Латвия",
+    "valmiera": "Валмиера"
+  },
+  "aside": {},
+  "menu": {
+    "complement": {
+      "title": "Комплекты",
+      "internet-tv": "Интернет + ТВ",
+      "internet-tv-telephony": "Интернет + ТВ + телефония",
+      "internet-telephony": "Интернет + телефония"
+    },
+    "internet": "Интернет",
+    "television": "Телевидение",
+    "telephony": "Телефония",
+    "company": {
+      "title": "О компании",
+      "about": "О нас",
+      "payment": "Оплата счетов",
+      "contact": "Контакты"
+    },
+    "shop": "Магазин"
+  },
+  "footer": {},
+  "call-back": "Перезвонить вам?",
+  "technical-assistance": "Техническая помощь: круглосуточно",
+  "connections": "Подключения: Пн. — Пт., 09:00 — 18:00"
+}

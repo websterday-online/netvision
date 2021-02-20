@@ -1,0 +1,38 @@
+{
+  "header": {
+    "for-home": "Mājai",
+    "for-business": "Biznesam",
+    "log-in": "Ieeja e-pastā"
+  },
+  "language": {
+    "lv": "Lat",
+    "ru": "Рус"
+  },
+  "city-select": {
+    "all-latvia": "Visa Latvija",
+    "valmiera": "Valmiera"
+  },
+  "aside": {},
+  "menu": {
+    "complement": {
+      "title": "Komplekti",
+      "internet-tv": "Internets + TV",
+      "internet-tv-telephony": "Internets + TV + telefonija",
+      "internet-telephony": "Internets + telefonija"
+    },
+    "internet": "Internets",
+    "television": "Televīzija",
+    "telephony": "Telefonija",
+    "company": {
+      "title": "Par uzņēmumu",
+      "about": "Par mums",
+      "payment": "Rēķinu apmaksa",
+      "contact": "Kontakti"
+    },
+    "shop": "Rezultāts"
+  },
+  "footer": {},
+  "call-back": "Pārzvanīt jums?",
+  "technical-assistance": "Tehniskais atbalsts: visu diennakti",
+  "connections": "Pieslēgums: P. — Pk., 09:00 — 18:00"
+}
