@@ -157,31 +157,44 @@ export default {
 
   &__container {
     width: 100%;
+    height: 100%;
     max-width: 1920px;
     margin: 0 auto;
     display: flex;
   }
 
   &__logotype {
-    max-width: 144px;
-    margin-right: 50px;
+    margin-right: 30px;
+    height: 100%;
+
+    @media (min-width: 768px) {
+      max-width: 144px;
+      margin-right: 50px;
+    }
 
     img {
       max-width: 100%;
+      max-height: 100%;
     }
   }
 
   &__phone {
-    margin: auto 40px auto auto;
+    @media (min-width: 768px) {
+      margin: auto 40px auto auto;
+    }
   }
 
   &__select {
     display: flex;
     align-items: center;
     padding: 0 10px;
-    margin: 0 50px 0 0;
     color: #fff;
     position: relative;
+    margin: 0 30px 0 auto;
+
+    @media (min-width: 768px) {
+      margin: 0 50px 0 0;
+    }
 
     &-name {
       margin-right: 5px;
@@ -250,18 +263,29 @@ export default {
   }
 
   &__lang-switcher {
-    margin: auto 50px auto 0;
+    display: none;
+
+    @media (min-width: 1200px) {
+      display: flex;
+      margin: auto 50px auto 0;
+    }
   }
 
   &__sign-in {
-    min-width: 105px;
-    height: 40px;
-    padding: 0 15px;
+    @media (min-width: 1200px) {
+      min-width: 105px;
+      height: 40px;
+      padding: 0 15px;
+    }
   }
 }
 
 .tabs {
-  display: flex;
+  display: none;
+
+  @media (min-width: 1200px) {
+    display: flex;
+  }
 
   &__link {
     display: flex;
@@ -304,8 +328,12 @@ export default {
 }
 
 .phone {
-  display: flex;
-  align-items: center;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
 
   &__icon {
     width: 26px;
@@ -322,13 +350,17 @@ export default {
 }
 
 .sign-in {
-  background-color: #9909e3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  transition: .2s ease-in-out;
-  border-radius: 3px;
+  display: none;
+
+  @media (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9909e3;
+    color: #fff;
+    transition: .2s ease-in-out;
+    border-radius: 3px;
+  }
 
   &__icon {
     width: 19px;
@@ -339,7 +371,20 @@ export default {
 }
 
 .dropdown {
-  display: none;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    height: 26px;
+    width: 26px;
+    margin: auto 0;
+  }
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
 
   &__burger {
     position: relative;
@@ -365,6 +410,139 @@ export default {
         bottom: 0;
       }
     }
+  }
+
+  &__wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(41, 21, 54, 0.9);
+    overflow: auto;
+    z-index: 5;
+    transition: opacity .25s ease-in-out;
+
+    &:not(.animation-open) {
+      opacity: 0;
+      display: none;
+    }
+  }
+
+  &__container {
+    background-color: #eff1f2;
+    max-width: 400px;
+    width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px 30px 30px;
+
+    & hr {
+      width: 100%;
+      height: 1px;
+      background-color: #e5e5e5;
+      outline: none;
+      border: none;
+      margin: 17px 0;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+
+    @media (min-width: 768px) {
+      width: 36px;
+      height: 36px;
+    }
+
+    span {
+      position: absolute;
+      display: inline-block;
+      width: 100%;
+      height: 2px;
+      background-color: #9909e3;
+      left: 0;
+      transition: .2s linear;
+
+      &:first-child {
+        top: 12px;
+        transform: rotate(45deg);
+
+        @media (min-width: 768px) {
+          top: 17px;
+        }
+      }
+
+      &:last-child {
+        bottom: 12px;
+        transform: rotate(-45deg);
+
+        @media (min-width: 768px) {
+          top: 17px;
+        }
+      }
+    }
+  }
+
+  &__lang-switcher {
+    height: 36px;
+    align-items: center;
+    margin: 0 36px 20px 0;
+
+    &__item {
+      color: #b5b7be;
+
+      &_active {
+        color: #351b46;
+      }
+    }
+  }
+
+  &__tabs {
+    display: flex;
+    margin-bottom: 35px;
+  }
+
+  &__menu {
+    & .menu__link {
+      align-items: baseline;
+      font-size: 20px;
+      line-height: 24px;
+      color: #202124;
+      font-weight: 400;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+  }
+
+  &__social {
+    margin: 40px 0;
+  }
+
+  &__contact-paragraph {
+    color: #202124;
+  }
+
+  &__call-order {
+    border: 0;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    color: #202124;
+    margin: 6px 0 25px 0;
+  }
+
+  &__sign-in {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
   }
 }
 </style>
