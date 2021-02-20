@@ -32,7 +32,7 @@ const routes = [{
         },
         {
             path: 'internet-tv-telephony',
-            name: 'internet-tv-telephony',
+            name: 'Internet-tv-telephony',
             component: load('Internet-tv-telephony')
         },
         {
