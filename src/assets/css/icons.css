@@ -1,0 +1,97 @@
+.icon {
+  display: inline-block;
+}
+.icon__big-arrow-right {
+  background: url("../image/icon/icon__big-arrow-right.svg") no-repeat center;
+  background-size: cover;
+  width: 14px;
+  height: 12px;
+}
+.icon__home {
+  background: url("../image/icon/icon__home.svg") no-repeat center;
+  width: 20px;
+  height: 20px;
+}
+.icon__business {
+  background: url("../image/icon/icon__business.svg") no-repeat center;
+  width: 20px;
+  height: 20px;
+}
+.icon__phone {
+  width: 26px;
+  height: 26px;
+  background: url("../image/icon/icon__phone.svg") no-repeat center;
+}
+.icon__sign-in {
+  width: 19px;
+  height: 19px;
+  background: url("../image/icon/icon__sign-in.svg") no-repeat center;
+}
+.icon__arrow-right {
+  background: url("../image/icon/icon__arrow-right.svg") no-repeat center;
+  background-size: cover;
+  width: 15px;
+  height: 7px;
+}
+.icon__rating {
+  width: 101px;
+  height: 17px;
+  background: url("../image/icon/icon__rating.svg") no-repeat center;
+  vertical-align: text-top;
+}
+.icon__bill {
+  background: url("../image/icon/icon__bill.svg") no-repeat center;
+  background-size: cover;
+  width: 27px;
+  height: 27px;
+}
+.icon__plus-blue {
+  background: url("../image/icon/icon__plus-blue.svg") no-repeat center;
+  background-size: cover;
+  width: 27px;
+  height: 27px;
+}
+.icon__ok {
+  background: url("../image/icon/icon__ok.svg") no-repeat center;
+  background-size: cover;
+  width: 27px;
+  height: 30px;
+}
+.icon__cart {
+  background: url("../image/icon/icon__cart.svg") no-repeat center;
+  background-size: cover;
+  width: 29px;
+  height: 29px;
+}
+.icon__kits {
+  background: url("../image/icon/icon__kits.svg") no-repeat center bottom;
+  width: 31px;
+  height: 31px;
+}
+.icon__internet {
+  background: url("../image/icon/icon__internet.svg") no-repeat center bottom;
+  width: 31px;
+  height: 31px;
+}
+.icon__television {
+  background: url("../image/icon/icon__television.svg") no-repeat center bottom;
+  width: 31px;
+  height: 31px;
+}
+.icon__telephony {
+  background: url("../image/icon/icon__telephony.svg") no-repeat center bottom;
+  width: 31px;
+  height: 31px;
+}
+.icon__company {
+  background: url("../image/icon/icon__company.svg") no-repeat center bottom;
+  width: 31px;
+  height: 31px;
+}
+.icon__shop {
+  background: url("../image/icon/icon__shop.svg") no-repeat center bottom;
+  width: 31px;
+  height: 31px;
+}
+
+/*# sourceMappingURL=icons.css.map */

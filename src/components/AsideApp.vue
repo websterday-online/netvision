@@ -2,7 +2,7 @@
   <aside>
     <nav class="menu">
       <div class="menu__link">
-        <span class="menu__icon menu__icon_kits"></span>
+        <span class="icon icon__kits menu__icon"></span>
         <span class="menu__text underline">{{ $t('menu.complement.title') }}</span>
 
         <div class="menu__second-level">
@@ -21,22 +21,22 @@
       </div>
 
       <router-link :to="$i18nRoute({ name: 'Internet' })" class="menu__link">
-        <span class="menu__icon menu__icon_internet"></span>
+        <span class="icon icon__internet menu__icon"></span>
         <span class="underline">{{ $t('menu.internet') }}</span>
       </router-link>
 
       <router-link :to="$i18nRoute({ name: 'Television' })" class="menu__link">
-        <span class="menu__icon menu__icon_television"></span>
+        <span class="icon icon__television menu__icon"></span>
         <span class="underline">{{ $t('menu.television') }}</span>
       </router-link>
 
       <router-link :to="$i18nRoute({ name: 'Telephony' })" class="menu__link">
-        <span class="menu__icon menu__icon_telephony"></span>
+        <span class="icon icon__telephony menu__icon"></span>
         <span class="underline">{{ $t('menu.telephony') }}</span>
       </router-link>
 
       <div class="menu__link">
-        <span class="menu__icon menu__icon_company"></span>
+        <span class="icon icon__company menu__icon"></span>
         <span class="menu__text underline">{{ $t('menu.company.title') }}</span>
 
         <div class="menu__second-level">
@@ -55,7 +55,7 @@
       </div>
 
       <router-link :to="$i18nRoute({ name: 'Shop' })" class="menu__link">
-        <span class="menu__icon menu__icon_shop"></span>
+        <span class="icon icon__shop menu__icon"></span>
         <span class="underline">{{ $t('menu.shop') }}</span>
       </router-link>
     </nav>
@@ -109,37 +109,15 @@ aside {
         opacity: 1;
       }
     }
+
+    &:hover > .underline:after {
+      background-color: transparent;
+    }
   }
 
   &__icon {
     display: block;
-    width: 31px;
-    height: 31px;
     margin-bottom: 7px;
-
-    &_kits {
-      background: url("../assets/image/icon/icon__kits.svg") no-repeat center bottom;
-    }
-
-    &_internet {
-      background: url("../assets/image/icon/icon__internet.svg") no-repeat center bottom;
-    }
-
-    &_television {
-      background: url("../assets/image/icon/icon__television.svg") no-repeat center bottom;
-    }
-
-    &_telephony {
-      background: url("../assets/image/icon/icon__telephony.svg") no-repeat center bottom;
-    }
-
-    &_company {
-      background: url("../assets/image/icon/icon__company.svg") no-repeat center bottom;
-    }
-
-    &_shop {
-      background: url("../assets/image/icon/icon__shop.svg") no-repeat center bottom;
-    }
   }
 
   &__second-level {

@@ -5,6 +5,9 @@ import router from '@/router'
 import {i18n} from '@/i18n'
 import {Trans} from '@/plugins/Translation'
 
+import '@/assets/css/common.scss'
+import '@/assets/css/icons.scss'
+
 Vue.prototype.$i18nRoute = Trans.i18nRoute.bind(Trans)
 Vue.config.productionTip = false
 

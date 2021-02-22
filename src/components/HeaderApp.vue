@@ -7,24 +7,24 @@
 
       <div class="tabs">
         <router-link :to="$i18nRoute({ name: 'Home' })" class="tabs__link">
-          <span class="tabs__icon tabs__icon_home"></span>
+          <span class="icon icon__home tabs__icon tabs__icon-home"></span>
           <span class="underline">{{ $t('header.for-home') }}</span>
         </router-link>
 
         <router-link :to="$i18nRoute({ name: 'Business' })" class="tabs__link">
-          <span class="tabs__icon tabs__icon_business"></span>
+          <span class="icon icon__business tabs__icon tabs__icon-business"></span>
           <span class="underline">{{ $t('header.for-business') }}</span>
         </router-link>
       </div>
 
       <a href="tel:67205404" target="_blank" class="phone header__phone">
-        <span class="phone__icon"></span>
+        <span class="icon icon__phone phone__icon"></span>
         <span class="phone__text underline">67-205-404</span>
       </a>
 
       <div class="header__select">
         <div class="header__select-name">
-          <span class="icon__big-arrow-right header__select-icon"></span>
+          <span class="icon icon__big-arrow-right header__select-icon"></span>
         </div>
 
         <div class="header__select-block block-wrapper">
@@ -42,7 +42,7 @@
       <LocaleSwitcher class="header__lang-switcher"/>
 
       <a href="https://mail.mpe.lv:2096/" target="_blank" class="sign-in header__sign-in">
-        <span class="sign-in__icon"></span>
+        <span class="icon icon__sign-in sign-in__icon"></span>
         {{ $t('header.log-in') }}
       </a>
 
@@ -61,12 +61,12 @@
 
             <div class="tabs dropdown__tabs">
               <router-link :to="$i18nRoute({ name: 'Home' })" class="tabs__link">
-                <span class="tabs__icon tabs__icon_home"></span>
+                <span class="icon icon__sign-in sign-in__icon"></span>
                 <span class="underline">{{ $t('header.for-home') }}</span>
               </router-link>
 
               <router-link :to="$i18nRoute({ name: 'Business' })" class="tabs__link">
-                <span class="tabs__icon tabs__icon_business"></span>
+                <span class="icon icon__business tabs__icon tabs__icon-business"></span>
                 <span class="underline">{{ $t('header.for-business') }}</span>
               </router-link>
             </div>
@@ -118,7 +118,7 @@
             </div>
 
             <a href="https://mail.mpe.lv:2096/" target="_blank" class="sign-in dropdown__sign-in">
-              <span class="sign-in__icon"></span>
+              <span class="icon icon__sign-in sign-in__icon"></span>
               {{ $t('header.log-in') }}
             </a>
           </div>
@@ -313,17 +313,7 @@ export default {
 
   &__icon {
     position: relative;
-    width: 20px;
-    height: 20px;
     margin-right: 8px;
-
-    &_home {
-      background: url("../assets/image/icon/icon__home.svg") no-repeat center;
-    }
-
-    &_business {
-      background: url("../assets/image/icon/icon__business.svg") no-repeat center;
-    }
   }
 }
 
@@ -336,9 +326,6 @@ export default {
   }
 
   &__icon {
-    width: 26px;
-    height: 26px;
-    background: url("../assets/image/icon/icon__phone.svg") no-repeat center;
     margin-right: 8px;
   }
 
@@ -363,9 +350,6 @@ export default {
   }
 
   &__icon {
-    width: 19px;
-    height: 19px;
-    background: url("../assets/image/icon/icon__sign-in.svg") no-repeat center;
     margin-right: 12px;
   }
 }
