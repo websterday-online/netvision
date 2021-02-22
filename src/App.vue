@@ -3,7 +3,9 @@
     <header-app/>
     <main>
       <aside-app/>
-      <router-view/>
+      <div class="content">
+        <router-view/>
+      </div>
     </main>
     <footer-app/>
   </div>
@@ -22,14 +24,29 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-@import 'assets/css/normolize.css';
-@import 'assets/css/common.css';
 
-body {
-  min-height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration-color: transparent;
+  box-sizing: border-box;
 }
 
 #app {
   font: 400 14px 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.content {
+  padding: 60px 0 0 0;
+
+  @media (min-width: 768px) {
+    padding: 70px 0 0 0;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 70px 0 0 147px;
+  }
 }
 </style>

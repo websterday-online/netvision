@@ -32,7 +32,62 @@
     "shop": "Rezultāts"
   },
   "footer": {},
+  "pages": {
+    "main": {}
+  },
+  "components": {
+    "our-service": {
+      "title": "Mūsu pakalpojumi",
+      "more": "Uzzināt vairāk",
+      "complement": {
+        "title": "Komplekti",
+        "description": "Vienkāršs, stabils un uzticams risinājums pieaugušajiem un bērniem no 5,90 € / mēnesī."
+      },
+      "internet": {
+        "title": "Internets",
+        "description": "Ātrgaitas un stabils internets jūsu mājām: izveidojiet savienojumu no 5,90 € / mēnesī."
+      },
+      "television": {
+        "title": "Televīzija",
+        "description": "Interaktīvā TV ar vairāk nekā 165 kanāliem, no kuriem 65 ir HD kvalitātē."
+      },
+      "telephony": {
+        "title": "Telefonija",
+        "description": "Nav papildu vadu. Izdevīgi pilsētas un starptautiskie zvani."
+      }
+    },
+    "coverage": {
+      "title": "Kļūsti par abonentu"
+    },
+    "check-form": {
+      "step-one": "1. solis no 2:",
+      "step-one-description": "pārbaudiet pakalpojuma pieejamību savā adresē",
+      "step-two": "2. solis no 2:",
+      "step-two-description": "norādiet tālruņa numuru",
+      "address": "Pieslēguma adrese",
+      "check": "Pārbaudīt",
+      "availability": "pieejamība",
+      "phone-number": "Telefons saziņai",
+      "send": "Nosūtīt",
+      "error": {
+        "phone-number": "Ievadiet pareizo tālruņa numuru"
+      },
+      "agree-with": "Es piekritu",
+      "processing-rules": "personisko datu apstrādes noteikumiem",
+      "data": "",
+      "wait": "Pagaidiet, sūtīšana"
+    },
+    "button-block": {
+      "pay-bill": "Samaksāt rēķinu",
+      "connect-service": "Pievienojiet pakalpojumu",
+      "ask-question": "Uzdod jautājumu",
+      "buy-equipment": "Pērciet aprīkojumu"
+    }
+  },
   "call-back": "Pārzvanīt jums?",
   "technical-assistance": "Tehniskais atbalsts: visu diennakti",
-  "connections": "Pieslēgums: P. — Pk., 09:00 — 18:00"
+  "connections": "Pieslēgums: P. — Pk., 09:00 — 18:00",
+  "copyright": "©2004-2020 SIA Netvision. Visas tiesības ir Aizsargātas",
+  "politics": "Konfidencialitātes politika",
+  "rating": "96% klientu pozitīvi novērtēja mūsu pakalpojumu kvalitāti"
 }

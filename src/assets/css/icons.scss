@@ -1,0 +1,113 @@
+.icon {
+  display: inline-block;
+
+  &__big-arrow-right {
+    background: url("../image/icon/icon__big-arrow-right.svg") no-repeat center;
+    background-size: cover;
+    width: 14px;
+    height: 12px;
+  }
+
+  &__home {
+    background: url("../image/icon/icon__home.svg") no-repeat center;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__business {
+    background: url("../image/icon/icon__business.svg") no-repeat center;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__phone {
+    width: 26px;
+    height: 26px;
+    background: url("../image/icon/icon__phone.svg") no-repeat center;
+  }
+
+  &__sign-in {
+    width: 19px;
+    height: 19px;
+    background: url("../image/icon/icon__sign-in.svg") no-repeat center;
+  }
+
+  &__arrow-right {
+    background: url("../image/icon/icon__arrow-right.svg") no-repeat center;
+    background-size: cover;
+    width: 15px;
+    height: 7px;
+  }
+
+  &__rating {
+    width: 101px;
+    height: 17px;
+    background: url("../image/icon/icon__rating.svg") no-repeat center;
+    vertical-align: text-top;
+  }
+
+  &__bill {
+    background: url("../image/icon/icon__bill.svg") no-repeat center;
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+
+  }
+
+  &__plus-blue {
+    background: url("../image/icon/icon__plus-blue.svg") no-repeat center;
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+  }
+
+  &__ok {
+    background: url("../image/icon/icon__ok.svg") no-repeat center;
+    background-size: cover;
+    width: 27px;
+    height: 30px;
+  }
+
+  &__cart {
+    background: url("../image/icon/icon__cart.svg") no-repeat center;
+    background-size: cover;
+    width: 29px;
+    height: 29px;
+  }
+
+  &__kits {
+    background: url("../image/icon/icon__kits.svg") no-repeat center bottom;
+    width: 31px;
+    height: 31px;
+  }
+
+  &__internet {
+    background: url("../image/icon/icon__internet.svg") no-repeat center bottom;
+    width: 31px;
+    height: 31px;
+  }
+
+  &__television {
+    background: url("../image/icon/icon__television.svg") no-repeat center bottom;
+    width: 31px;
+    height: 31px;
+  }
+
+  &__telephony {
+    background: url("../image/icon/icon__telephony.svg") no-repeat center bottom;
+    width: 31px;
+    height: 31px;
+  }
+
+  &__company {
+    background: url("../image/icon/icon__company.svg") no-repeat center bottom;
+    width: 31px;
+    height: 31px;
+  }
+
+  &__shop {
+    background: url("../image/icon/icon__shop.svg") no-repeat center bottom;
+    width: 31px;
+    height: 31px;
+  }
+}

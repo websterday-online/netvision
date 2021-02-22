@@ -56,7 +56,7 @@ const dateTimeFormats = {
 const numberFormats = {
     'lv': {
         currency: {
-            style: 'currency', currency: 'USD'
+            style: 'currency', currency: 'EURO'
         }
     },
     'ru': {
