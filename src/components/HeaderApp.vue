@@ -187,7 +187,7 @@ export default {
   &__select {
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 10px 0 0;
     color: #fff;
     position: relative;
     margin: 0 30px 0 auto;
@@ -197,11 +197,14 @@ export default {
     }
 
     &-name {
-      margin-right: 5px;
       font-weight: 500;
-      font-size: 15px;
-      line-height: 18px;
+      font-size: 12px;
+      line-height: 15px;
       color: #000000;
+
+      @media (min-width: 550px) {
+        margin-right: 5px;
+      }
     }
 
     &-icon {
@@ -214,12 +217,17 @@ export default {
 
     &-title {
       color: #fff;
-      font-size: 14px;
-      line-height: 17px;
+      font-size: 12px;
+      line-height: 15px;
       font-weight: 400;
       background: none;
       cursor: pointer;
       position: relative;
+
+      @media (min-width: 550px) {
+        font-size: 14px;
+        line-height: 17px;
+      }
 
       &:after {
         content: '';
@@ -355,15 +363,16 @@ export default {
 }
 
 .dropdown {
-  height: 36px;
-  width: 36px;
+  height: 26px;
+  width: 26px;
+  margin: auto 0;
   display: flex;
   align-items: center;
 
   @media (min-width: 768px) {
-    height: 26px;
-    width: 26px;
-    margin: auto 0;
+    height: 36px;
+    width: 36px;
+    margin: 0;
   }
 
   @media (min-width: 1200px) {

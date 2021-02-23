@@ -33,7 +33,19 @@
   },
   "footer": {},
   "pages": {
-    "main": {}
+    "main": {
+      "carousel": {
+        "slide-one": {
+          "title": "Nosakiet izmaksas",
+          "description": "Internets + TV uz mājām 24 mēnešus 13.90 € / mēnesī."
+        },
+        "slide-two": {
+          "title": "TV + internets bez līguma termiņa",
+          "description": "300 Mbit / s + 150 kanāli bez saistībām un sodiem."
+        },
+        "more": "Uzzināt vairāk"
+      }
+    }
   },
   "components": {
     "our-service": {

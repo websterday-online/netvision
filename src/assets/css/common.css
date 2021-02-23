@@ -74,4 +74,100 @@ section {
   background-color: transparent;
 }
 
+.VueCarousel {
+  height: 100%;
+}
+.VueCarousel .VueCarousel-wrapper {
+  height: 100%;
+}
+.VueCarousel .VueCarousel-inner {
+  min-height: 100%;
+}
+.VueCarousel .VueCarousel-navigation {
+  position: absolute;
+  width: 150px;
+  right: calc((100% - 150px) / 2);
+  bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+@media (min-width: 550px) {
+  .VueCarousel .VueCarousel-navigation {
+    width: 130px;
+    right: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .VueCarousel .VueCarousel-navigation {
+    right: 45px;
+  }
+}
+@media (min-width: 1200px) {
+  .VueCarousel .VueCarousel-navigation {
+    right: 30px;
+  }
+}
+@media (min-width: 1366px) {
+  .VueCarousel .VueCarousel-navigation {
+    right: 75px;
+    bottom: 20px;
+  }
+}
+.VueCarousel .VueCarousel-navigation-button {
+  position: static;
+  transform: unset;
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+  outline: none;
+}
+.VueCarousel .VueCarousel-navigation-button:focus {
+  outline: none;
+}
+.VueCarousel .VueCarousel-navigation-button:hover {
+  background-color: #990ae3;
+}
+.VueCarousel .VueCarousel-navigation-button .icon {
+  transition: background 0.25s ease-in-out;
+}
+.VueCarousel .VueCarousel-navigation-button:hover .icon__prev {
+  background: url("../image/icon/icon__prev_hover.svg") no-repeat center;
+}
+.VueCarousel .VueCarousel-navigation-button:hover .icon__next {
+  background: url("../image/icon/icon__next_hover.svg") no-repeat center;
+}
+.VueCarousel .VueCarousel-pagination {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 550px) {
+  .VueCarousel .VueCarousel-pagination {
+    bottom: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .VueCarousel .VueCarousel-pagination {
+    bottom: 20px;
+  }
+}
+.VueCarousel .VueCarousel-pagination * {
+  margin: 0 !important;
+  outline: none;
+}
+.VueCarousel .VueCarousel-pagination *:focus {
+  outline: none;
+}
+
 /*# sourceMappingURL=common.css.map */
