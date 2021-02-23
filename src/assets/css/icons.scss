@@ -110,4 +110,18 @@
     width: 31px;
     height: 31px;
   }
+
+  &__prev {
+    background: url("../image/icon/icon__prev.svg") no-repeat center;
+    background-size: cover;
+    width: 11px;
+    height: 19px;
+  }
+
+  &__next {
+    background: url("../image/icon/icon__next.svg") no-repeat center;
+    background-size: cover;
+    width: 11px;
+    height: 19px;
+  }
 }

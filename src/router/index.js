@@ -74,6 +74,16 @@ const routes = [{
             path: 'shop',
             name: 'Shop',
             component: load('Shop')
+        },
+        {
+            path: '1390',
+            name: '1390',
+            component: load('1390')
+        },
+        {
+            path: '1690',
+            name: '1690',
+            component: load('1690')
         }
     ]
 },

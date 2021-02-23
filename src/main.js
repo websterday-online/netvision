@@ -4,6 +4,7 @@ import {store} from "@/store/store";
 import router from '@/router'
 import {i18n} from '@/i18n'
 import {Trans} from '@/plugins/Translation'
+import VueCarousel from 'vue-carousel';
 
 import '@/assets/css/common.scss'
 import '@/assets/css/icons.scss'
@@ -15,5 +16,6 @@ new Vue({
   store,
   router,
   i18n,
+  VueCarousel,
   render: h => h(App)
 }).$mount('#app')
