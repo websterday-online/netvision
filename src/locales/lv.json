@@ -45,6 +45,31 @@
         },
         "more": "Uzzināt vairāk"
       }
+    },
+    "shop": {
+      "title": "Rezultāts",
+      "description": "Pakalpojumu savienošanai nepieciešamo aprīkojumu varat iegādāties tieši no mūsu uzņēmuma.",
+      "order": "Pasūtīt",
+      "product-one": {
+        "title": "TP-Link AC 1200",
+        "description": "Spēlējiet tiešsaistes spēles un skatieties divu joslu HD video ar ātrumu līdz 1200 Mb/s.",
+        "price": "2.90 €"
+      },
+      "product-two": {
+        "title": "TP-Link N300",
+        "description": "300 Mb/s ir ideāli piemērots lietojumiem, kas saistīti ar savienojumu.",
+        "price": "2.90 €"
+      },
+      "product-three": {
+        "title": "TV kastīte MAG 420",
+        "description": "Spēcīgs un rentabls risinājums, lai ātri uzsāktu IPTV / OTT projektus.",
+        "price": "2.90 €"
+      },
+      "product-four": {
+        "title": "MAG 254 tālvadības pults",
+        "description": "Tālvadības pults Mag IPTV TV Box.",
+        "price": "2.90 €"
+      }
     }
   },
   "components": {
