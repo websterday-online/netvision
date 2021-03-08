@@ -17,7 +17,7 @@
         </div>
 
         <div class="shop__item-bottom">
-          <span>{{ $t('pages.shop.product-one.price') }}</span>
+          <span>45 €</span>
 
           <div class="shop__button">{{ $t('pages.shop.order') }}</div>
         </div>
@@ -36,7 +36,7 @@
         </div>
 
         <div class="shop__item-bottom">
-          <span>{{ $t('pages.shop.product-two.price') }}</span>
+          <span>22 €</span>
 
           <div class="shop__button">{{ $t('pages.shop.order') }}</div>
         </div>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="shop__item-bottom">
-          <span>{{ $t('pages.shop.product-three.price') }}</span>
+          <span>70 €</span>
 
           <div class="shop__button">{{ $t('pages.shop.order') }}</div>
         </div>
@@ -74,7 +74,7 @@
         </div>
 
         <div class="shop__item-bottom">
-          <span>{{ $t('pages.shop.product-four.price') }}</span>
+          <span>10 €</span>
 
           <div class="shop__button">{{ $t('pages.shop.order') }}</div>
         </div>

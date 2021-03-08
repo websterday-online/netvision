@@ -4,17 +4,19 @@
       <div class="footer__top">
         <div class="footer__top-left">
           <p class="contact-paragraph footer__contact-paragraph">
-            {{ $t('technical-assistance') }}
+            {{ $t('technical-assistance') }}:
+            {{ $t('around-clock') }}
             <br>
-            <a href="tel:67205404" class="underline">67-205-404</a>
+            <a href="tel:6100100" class="underline">61-00-100</a>
           </p>
 
           <hr>
 
           <p class="contact-paragraph footer__contact-paragraph">
-            {{ $t('connections') }}
+            {{ $t('connections') }}:
+            {{ $t('around-clock') }}
             <br>
-            <a href="tel:67205404" class="underline">67-205-404</a>
+            <a href="tel:64844111" class="underline">67-844-111</a>
           </p>
         </div>
 
@@ -305,7 +307,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    
+
     @media (min-width: 550px) {
       display: none;
     }

@@ -17,9 +17,9 @@
         </router-link>
       </div>
 
-      <a href="tel:67205404" target="_blank" class="phone header__phone">
+      <a href="tel:6100100" target="_blank" class="phone header__phone">
         <span class="icon icon__phone phone__icon"></span>
-        <span class="phone__text underline">67-205-404</span>
+        <span class="phone__text underline">61-00-100</span>
       </a>
 
       <div class="header__select">
@@ -100,17 +100,19 @@
             </div>
 
             <p class="contact-paragraph dropdown__contact-paragraph">
-              {{ $t('technical-assistance') }}
+              {{ $t('technical-assistance') }}:
+              {{ $t('around-clock') }}
               <br>
-              <a href="tel:67205404">67-205-404</a>
+              <a href="tel:6100100">61-00-100</a>
             </p>
 
             <hr>
 
             <p class="contact-paragraph dropdown__contact-paragraph">
-              {{ $t('connections') }}
+              {{ $t('connections') }}:
+              {{ $t('around-clock') }}
               <br>
-              <a href="tel:67205404">67-205-404</a>
+              <a href="tel:67844111">67-844-111</a>
             </p>
 
             <div class="call-order dropdown__call-order">
