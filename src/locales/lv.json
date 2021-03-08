@@ -52,24 +52,78 @@
       "order": "Pasūtīt",
       "product-one": {
         "title": "TP-Link AC 1200",
-        "description": "Spēlējiet tiešsaistes spēles un skatieties divu joslu HD video ar ātrumu līdz 1200 Mb/s.",
-        "price": "2.90 €"
+        "description": "Spēlējiet tiešsaistes spēles un skatieties divu joslu HD video ar ātrumu līdz 1200 Mb/s."
       },
       "product-two": {
         "title": "TP-Link N300",
-        "description": "300 Mb/s ir ideāli piemērots lietojumiem, kas saistīti ar savienojumu.",
-        "price": "2.90 €"
+        "description": "300 Mb/s ir ideāli piemērots lietojumiem, kas saistīti ar savienojumu."
       },
       "product-three": {
         "title": "TV kastīte MAG 420",
-        "description": "Spēcīgs un rentabls risinājums, lai ātri uzsāktu IPTV / OTT projektus.",
-        "price": "2.90 €"
+        "description": "Spēcīgs un rentabls risinājums, lai ātri uzsāktu IPTV / OTT projektus."
       },
       "product-four": {
         "title": "MAG 254 tālvadības pults",
-        "description": "Tālvadības pults Mag IPTV TV Box.",
-        "price": "2.90 €"
+        "description": "Tālvadības pults Mag IPTV TV Box."
       }
+    },
+    "contact": {
+      "welcome": {
+        "title": "Kontakti",
+        "description": "Klienti un partneri sazinās ar mums tieši jebkurā ērtā veidā, lai atrisinātu problēmu vai uzdotu jautājumu"
+      },
+      "schedule": {
+        "title": "Klientu apkalpošanas centri",
+        "streets": {
+          "riga": "Maskavas iela 240-508",
+          "livany": "Rīgas 57b",
+          "liepaya": "Mežmalas iela 3-17",
+          "yurmala": "Nometņu iela 9-44",
+          "tukums": "Pasta iela 4",
+          "valmiera": "Fabrikas iela 1 (1. stāvā)"
+        }
+      },
+      "requisites": {
+        "title": "Rekvizīti"
+      }
+    }
+  },
+  "city": {
+    "riga": "Rīga",
+    "livany": "Līvāni",
+    "liepaya": "Liepāja",
+    "yurmala": "Jūrmala",
+    "tukums": "Tukums",
+    "valmiera": "Valmiera"
+  },
+  "days": {
+    "monday": {
+      "full": "Pirmdiena",
+      "short": "P"
+    },
+    "tuesday": {
+      "full": "Otrdiena",
+      "short": "O"
+    },
+    "wednesday": {
+      "full": "Trešdiena",
+      "short": "T"
+    },
+    "thursday": {
+      "full": "Ceturtdiena",
+      "short": "C"
+    },
+    "friday": {
+      "full": "Piektdiena",
+      "short": "Pk"
+    },
+    "saturday": {
+      "full": "Sestdiena",
+      "short": "S"
+    },
+    "sunday": {
+      "full": "Svētdiena",
+      "short": "Sv"
     }
   },
   "components": {
@@ -122,9 +176,22 @@
     }
   },
   "call-back": "Pārzvanīt jums?",
-  "technical-assistance": "Tehniskais atbalsts: visu diennakti",
-  "connections": "Pieslēgums: P. — Pk., 09:00 — 18:00",
+  "technical-assistance": "Tehniskais atbalsts",
+  "around-clock": "Visu diennakti",
+  "connections": "TET tīkls",
   "copyright": "©2004-2020 SIA Netvision. Visas tiesības ir Aizsargātas",
   "politics": "Konfidencialitātes politika",
-  "rating": "96% klientu pozitīvi novērtēja mūsu pakalpojumu kvalitāti"
+  "rating": "96% klientu pozitīvi novērtēja mūsu pakalpojumu kvalitāti",
+  "tet-network": "(TET tīkls)",
+  "subscriber-department": "Abonentu nodaļa",
+  "subscriber-department-description": "Maksājumu jautājumos pāreja uz citu tarifu, atvienošana",
+  "for-new-clients": "Jauniem klientiem",
+  "recipient": "Saņemejs",
+  "registration-number": "Reģ. Nr.",
+  "legal-address": "Jur. adr.",
+  "score": "Konta Nr.",
+  "bank": "Banka",
+  "telephone": "Tālr.",
+  "mail": "E-pasts",
+  "website": "Mājas lapa"
 }

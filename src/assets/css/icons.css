@@ -105,5 +105,13 @@
   width: 11px;
   height: 19px;
 }
+.icon__copy {
+  background: url("../image/icon/icon__copy.svg") no-repeat center;
+  background-size: cover;
+  width: 19px;
+  height: 19px;
+  margin: 0 0 -2px 5px;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=icons.css.map */
