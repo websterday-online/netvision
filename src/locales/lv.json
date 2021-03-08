@@ -86,6 +86,38 @@
       "requisites": {
         "title": "Rekvizīti"
       }
+    },
+    "payment": {
+      "welcome": {
+        "title": "Rēķinu apmaksa",
+        "description": "Netvision rēķinu var apmaksāt, izmantojot jebkuras Latvijas bankas internetbanku, norādot mūsu rekvizītus:"
+      },
+      "instruction": {
+        "first-subtitle": "Rēķina apmaksas instrukcijas",
+        "second-subtitle": "Rēķina apmaksa tirdzniecības centrā Maxima",
+        "list": {
+          "login": {
+            "title": "Piesakieties internetbankā",
+            "description": "Dodieties uz savu internetbanku un piesakieties sistēmā, izmantojot savu lietotāja numuru."
+          },
+          "create": {
+            "title": "Izveidojiet maksājuma uzdevumu",
+            "description": "Izvēlnes galvenajā lapā atlasiet «Jauns maksājums»."
+          },
+          "fill-in": {
+            "title": "Aizpildiet laukus",
+            "description": "Klienta numurs: ievadiet klienta numuru, kas redzams jūsu rēķinā <br><br> Precizējums: nokopējiet klauzulu, kas parādās jūsu rēķinā <br><br> Summa: ievadiet rēķinā norādīto summu."
+          },
+          "payment": {
+            "title": "Maksājums",
+            "description": "Noklikšķiniet uz pogas «maksāt» un pabeidziet maksājumu. Sistēma jūs informēs, ka maksājums ir veiksmīgi pabeigts, nosūtīs elektronisku čeku, un maksājums tiks parādīts sadaļā «Darījumu vēsture»."
+          },
+          "maxima": {
+            "title": "Pie kases jebkurā veikalā",
+            "description": "Tirdzniecības tīkla MAXIMA veikalu kasēs visā Latvijas Republikas teritorijā, uzrādot rēķinu ar svītru kodu."
+          }
+        }
+      }
     }
   },
   "city": {
