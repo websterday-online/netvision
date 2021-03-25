@@ -17,9 +17,9 @@
         </router-link>
       </div>
 
-      <a href="tel:6100100" target="_blank" class="phone header__phone">
+      <a href="tel:66100100" target="_blank" class="phone header__phone">
         <span class="icon icon__phone phone__icon"></span>
-        <span class="phone__text underline">61-00-100</span>
+        <span class="phone__text underline">66-100-100</span>
       </a>
 
       <div class="header__select">
@@ -103,7 +103,7 @@
               {{ $t('technical-assistance') }}:
               {{ $t('around-clock') }}
               <br>
-              <a href="tel:6100100">61-00-100</a>
+              <a href="tel:66100100">66-100-100</a>
             </p>
 
             <hr>

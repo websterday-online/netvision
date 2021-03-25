@@ -118,6 +118,37 @@
           }
         }
       }
+    },
+    "about": {
+      "welcome": {
+        "description": "Netvision ir draudzīgs telekomunikāciju pakalpojumu sniedzējs, kam ir savs optisko šķiedru attālās sakaru tīkls, nodrošinot pieejamus telekomunikāciju produktus",
+        "achievements": {
+          "years": "gadus tirgū",
+          "employees": "Netvision grupas darbinieki",
+          "settlements": "apmetnes"
+        }
+      },
+      "team": {
+        "about-title": "Par mums",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis finibus elit, vitae iaculis mauris. Mauris vitae lectus non est facilisis semper. Maecenas pellentesque massa et tortor tincidunt bibendum. Ut lacinia molestie orci, a molestie mi facilisis semper. Curabitur non dolor vulputate, aliquam sapien eget, convallis nunc. Suspendisse non elementum ligula. Donec eros risus, facilisis sed leo et, fermentum molestie justo.",
+        "benefits": "Ieguvumi",
+        "coverage-area": "Plaša pārklājuma zona",
+        "coverage-area-description": "Viena no vadošajiem Latvijas interneta operatoriem pārklājuma zona aptver aptuveni 15 pilsētas korporatīvajiem klientiem un privātpersonām. Uzņēmums katru gadu paplašina savu klātbūtni, aktīvi savienojot jaunus abonentus Rīgas mikrorajonos un jaunuzceltos dzīvojamos kompleksos.",
+        "innovative-technologies": "Inovatīvas tehnoloģijas",
+        "innovative-technologies-description": "Netvision nepārtraukti uzlabo savu pakalpojumu kvalitāti, palielina kanālu joslas platuma jaudu, drosmīgi ievieš novatoriskas tehnoloģijas, sniedzot saviem abonentiem iespēju izmantot jaunas darba, atpūtas, komunikācijas un attīstības iespējas.",
+        "technical-base": "Mūsdienīga tehniskā bāze",
+        "technical-base-description": "Interneta nodrošinātājs Netvision darbojas tikai ar modernām iekārtām, kuras ražo pasaules vadošie uzņēmumi.",
+        "resilient-communication": "Uzticama, ļoti izturīga komunikācija",
+        "resilient-communication-description": "Augsto tehnoloģiju aprīkojums, augstas kvalitātes palīgmateriāli, jaunākie sasniegumi IT tehnoloģiju jomā nodrošina Netvision abonentiem lielu joslas platumu un lielisku sakaru kvalitāti.",
+        "qualified-specialists": "Augsti kvalificēti speciālisti",
+        "qualified-specialists-description": "Interneta nodrošinātāja Netvision darbinieku apmācības līmenis mūsu abonentiem sniedz unikālu iespēju izvēlēties labākos tehniskos risinājumus."
+      },
+      "legal":{
+        "title": "Juridiskā </br> informācija",
+        "documents": {
+          "service-agreement": "Līgums par elektronisko sakaru pakalpojumiem"
+        }
+      }
     }
   },
   "city": {
