@@ -7,7 +7,7 @@
             {{ $t('technical-assistance') }}:
             {{ $t('around-clock') }}
             <br>
-            <a href="tel:6100100" class="underline">61-00-100</a>
+            <a href="tel:66100100" class="underline">66-100-100</a>
           </p>
 
           <hr>
