@@ -149,6 +149,28 @@
           "service-agreement": "Līgums par elektronisko sakaru pakalpojumiem"
         }
       }
+    },
+    "telephony": {
+      "welcome": {
+        "title": "Mājas telefonija",
+        "subtitle": "Nofiksē cenu un spēlē jebkuru spēli, pieslēdz līdz 10 iekārtām bez traucējumiem, skaties filmas un seriālus HD kvalitātē."
+      },
+      "tariffs": {
+        "title": "Tarifi",
+        "rates": {
+          "latvia": "Sarunu tarifi Latvijā",
+          "international": "Starptautisko sarunu tarifi"
+        }
+      },
+      "advantages": {
+        "subscription": "Zema abonēšanas maksa - tikai 1,5 €",
+        "connection": "Savienojums ir bez maksas",
+        "transfer": "Numura pārsūtīšana no cita operatora pirmā mēneša laikā bez maksas",
+        "caller": "Zvanītāja ID nav pieejams",
+        "free-calls": "Bezmaksas zvani uz Netvision un mūsu partneru tīkliem",
+        "low-rates": "Zemas cenas zvaniem uz ārzemēm - no 0,055 €",
+        "install-software": "Iespēja instalēt programmatūru savā galddatorā, klēpjdatorā, mobilajā tālrunī, kas ļaus veikt un saņemt zvanus"
+      }
     }
   },
   "city": {
@@ -256,5 +278,6 @@
   "bank": "Banka",
   "telephone": "Tālr.",
   "mail": "E-pasts",
-  "website": "Mājas lapa"
+  "website": "Mājas lapa",
+  "advantages-title": "Jūsu priekšrocības"
 }

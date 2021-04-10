@@ -1,8 +1,10 @@
 <template>
   <form action="#" method="post" class="check-form">
     <div class="check-form__top">
-      <p><span>{{ $t('components.check-form.step-one') }}</span> {{ $t('components.check-form.step-one-description') }}</p>
-      <p><span>{{ $t('components.check-form.step-two') }}</span> {{ $t('components.check-form.step-two-description') }}</p>
+      <p><span>{{ $t('components.check-form.step-one') }}</span> {{ $t('components.check-form.step-one-description') }}
+      </p>
+      <p><span>{{ $t('components.check-form.step-two') }}</span> {{ $t('components.check-form.step-two-description') }}
+      </p>
     </div>
 
     <div class="check-form__bottom">
@@ -11,7 +13,8 @@
           <input type="text" name="address" id="check-form__input-three" required="">
           <label for="check-form__input-three">{{ $t('components.check-form.address') }}</label>
 
-          <div class="check-form__button-check">{{ $t('components.check-form.check') }} <span>{{ $t('components.check-form.availability') }}</span></div>
+          <div class="check-form__button-check">{{ $t('components.check-form.check') }}
+            <span>{{ $t('components.check-form.availability') }}</span></div>
         </div>
       </div>
 
@@ -31,7 +34,9 @@
                  required="">
           <div class="check-form__checkbox-icon"></div>
           <label for="check-form__checkbox-agree-two">
-            {{ $t('components.check-form.agree-with') }} <a class="privacy-popup-open">{{ $t('components.check-form.processing-rules') }}</a> {{ $t('components.check-form.data') }}
+            {{ $t('components.check-form.agree-with') }} <a
+              class="privacy-popup-open">{{ $t('components.check-form.processing-rules') }}</a>
+            {{ $t('components.check-form.data') }}
           </label>
         </div>
       </div>
@@ -149,9 +154,11 @@ export default {
 
   &__block {
     position: relative;
+    display: flex;
+    flex-direction: column;
 
     @media (min-width: 1024px) {
-
+      display: block;
     }
 
     & input {
@@ -165,7 +172,7 @@ export default {
       border: 0;
       outline: none;
 
-      @media (min-width: 1200px) {
+      @media (min-width: 1024px) {
         height: 55px;
         padding: 22px 190px 0 13px;
         font-size: 16px;
@@ -190,7 +197,7 @@ export default {
       left: 13px;
       transition: top .2s ease-in-out;
 
-      @media (min-width: 1200px) {
+      @media (min-width: 1024px) {
         font-size: 16px;
         line-height: 16px;
         top: calc((100% - 16px) / 2);
@@ -218,7 +225,7 @@ export default {
     line-height: 50px;
     margin-top: 10px;
 
-    @media (min-width: 1200px) {
+    @media (min-width: 1024px) {
       position: absolute;
       right: -1px;
       width: 177px;
@@ -230,7 +237,7 @@ export default {
     & span {
       display: inline-block;
 
-      @media (min-width: 1200px) {
+      @media (min-width: 1024px) {
         display: none;
       }
     }
@@ -305,8 +312,6 @@ export default {
           text-decoration-color: transparent;
         }
       }
-
-
     }
 
     &-label_error {
@@ -329,7 +334,7 @@ export default {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    
+
     @media (min-width: 1024px) {
       height: 55px;
       font-size: 14px;

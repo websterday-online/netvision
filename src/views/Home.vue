@@ -24,7 +24,10 @@
           </div>
 
           <div class="main__welcome-image main__welcome-image_bottom">
-            <img src="../assets/image/main-welcome__image-one.png" alt="Зафиксируй стоимость">
+            <ImageApp
+                :path="'main-welcome__image-one.png'"
+                :alt="$t('pages.main.carousel.slide-one.title')"
+            />
           </div>
         </slide>
 
@@ -40,7 +43,10 @@
           </div>
 
           <div class="main__welcome-image main__welcome-image_center">
-            <img src="../assets/image/1690.png" alt="Зафиксируй стоимость">
+            <ImageApp
+                :path="'1690.png'"
+                :alt="$t('pages.main.carousel.slide-two.title')"
+            />
           </div>
         </slide>
       </carousel>
@@ -57,12 +63,13 @@
 import OurService from "@/components/OurService";
 import CoverageForm from "@/components/CoverageForm";
 import ButtonBlock from "@/components/ButtonBlock";
+import ImageApp from "@/components/ImageApp";
 
 import {Carousel, Slide} from 'vue-carousel';
 
 export default {
   name: "Home",
-  components: {ButtonBlock, CoverageForm, OurService, Carousel, Slide}
+  components: {ButtonBlock, CoverageForm, OurService, Carousel, Slide, ImageApp}
 }
 </script>
 

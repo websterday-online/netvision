@@ -25,6 +25,10 @@ export default {
 <style lang="scss">
 .coverage {
 
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+
   &__content-container {
     padding: 0 28px 80px;
     background: #351b46;
