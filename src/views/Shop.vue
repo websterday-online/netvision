@@ -12,7 +12,10 @@
           </div>
 
           <div class="shop__image">
-            <img src="../assets/image/tp-link-archer.png" alt="TP-Link Archer C6">
+            <ImageApp
+                :path="'tp-link-archer.png'"
+                :alt="'TP-Link Archer C6'"
+            />
           </div>
         </div>
 
@@ -31,7 +34,10 @@
           </div>
 
           <div class="shop__image">
-            <img src="../assets/image/tp-link.png" alt="TP-Link Archer C6">
+            <ImageApp
+                :path="'tp-link.png'"
+                :alt="'TP-Link Archer C6'"
+            />
           </div>
         </div>
 
@@ -50,7 +56,10 @@
           </div>
 
           <div class="shop__image">
-            <img src="../assets/image/mag.png" alt="TP-Link Archer C6">
+            <ImageApp
+                :path="'mag.png'"
+                :alt="'TP-Link Archer C6'"
+            />
           </div>
         </div>
 
@@ -69,7 +78,10 @@
           </div>
 
           <div class="shop__image">
-            <img src="../assets/image/tv-star-jaun.png" alt="TP-Link Archer C6">
+            <ImageApp
+                :path="'tv-star-jaun.png'"
+                :alt="'TP-Link Archer C6'"
+            />
           </div>
         </div>
 
@@ -84,8 +96,11 @@
 </template>
 
 <script>
+import ImageApp from "@/components/ImageApp";
+
 export default {
-  name: "Shop"
+  name: "Shop",
+  components: {ImageApp}
 }
 </script>
 

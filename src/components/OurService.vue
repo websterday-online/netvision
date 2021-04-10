@@ -11,7 +11,10 @@
           </div>
 
           <div class="our-service__image">
-            <img src="../assets/image/komplekt.png" alt="Комплекты">
+            <ImageApp
+                :path="'komplekt.png'"
+                :alt="$t('components.our-service.complement.title')"
+            />
           </div>
         </div>
 
@@ -28,12 +31,15 @@
           </div>
 
           <div class="our-service__image">
-            <img src="../assets/image/our-service__router.png" alt="Интернет">
+            <ImageApp
+                :path="'our-service__router.png'"
+                :alt="$t('components.our-service.internet.title')"
+            />
           </div>
         </div>
 
         <div class="our-service__bottom">
-         <p>{{ $t('components.our-service.more') }} <span class="icon__arrow-right"></span></p>
+          <p>{{ $t('components.our-service.more') }} <span class="icon__arrow-right"></span></p>
         </div>
       </router-link>
 
@@ -45,12 +51,15 @@
           </div>
 
           <div class="our-service__image">
-            <img src="../assets/image/our-service__tv.png" alt="Телевидение">
+            <ImageApp
+                :path="'our-service__tv.png'"
+                :alt="$t('components.our-service.television.title')"
+            />
           </div>
         </div>
 
         <div class="our-service__bottom">
-         <p>{{ $t('components.our-service.more') }} <span class="icon__arrow-right"></span></p>
+          <p>{{ $t('components.our-service.more') }} <span class="icon__arrow-right"></span></p>
         </div>
       </router-link>
 
@@ -62,12 +71,15 @@
           </div>
 
           <div class="our-service__image">
-            <img src="../assets/image/our-service__phone.png" alt="Телефония">
+            <ImageApp
+                :path="'our-service__phone.png'"
+                :alt="$t('components.our-service.telephony.title')"
+            />
           </div>
         </div>
 
         <div class="our-service__bottom">
-         <p>{{ $t('components.our-service.more') }} <span class="icon__arrow-right"></span></p>
+          <p>{{ $t('components.our-service.more') }} <span class="icon__arrow-right"></span></p>
         </div>
       </router-link>
     </div>
@@ -75,8 +87,11 @@
 </template>
 
 <script>
+import ImageApp from "@/components/ImageApp";
+
 export default {
-  name: "OurService"
+  name: "OurService",
+  components: {ImageApp}
 }
 </script>
 

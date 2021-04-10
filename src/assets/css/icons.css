@@ -121,5 +121,49 @@
   height: 48px;
   cursor: pointer;
 }
+.icon__tariffs {
+  background: url("../image/icon/icon__tariffs.svg") no-repeat center;
+  background-size: cover;
+  width: 40px;
+  min-width: 40px;
+  height: 48px;
+  margin-right: 20px;
+}
+.icon__achievement {
+  background: url("../image/icon/icon__achievement.svg") no-repeat center;
+  background-size: cover;
+  width: 23px;
+  height: 35px;
+}
+.icon__speed {
+  background: url("../image/icon/icon__speed.svg") no-repeat center;
+  background-size: cover;
+  width: 36px;
+  height: 22px;
+}
+.icon__support {
+  background: url("../image/icon/icon__support.svg") no-repeat center;
+  background-size: cover;
+  width: 32px;
+  height: 27px;
+}
+.icon__connect {
+  background: url("../image/icon/icon__connect.svg") no-repeat center;
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+}
+.icon__setting {
+  background: url("../image/icon/icon__setting.svg") no-repeat center;
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+}
+.icon__smile {
+  background: url("../image/icon/icon__smile.svg") no-repeat center;
+  background-size: cover;
+  width: 29px;
+  height: 29px;
+}
 
 /*# sourceMappingURL=icons.css.map */

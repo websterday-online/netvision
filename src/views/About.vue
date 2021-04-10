@@ -5,7 +5,10 @@
         <p>{{ $t('pages.about.welcome.description') }}</p>
 
         <div class="about__welcome-image">
-          <img src="../assets/image/mini-logotype.png" alt="Netvision logotype">
+          <ImageApp
+              :path="'mini-logotype.png'"
+              :alt="'Netvision logotype'"
+          />
         </div>
       </div>
 
@@ -31,7 +34,10 @@
       <p>{{ $t('pages.about.team.description') }}</p>
 
       <div class="about__team-image">
-        <img src="../assets/image/logotype-banner.jpg" alt="Netvision banner logotype">
+        <ImageApp
+            :path="'logotype-banner.jpg'"
+            :alt="'Netvision banner logotype'"
+        />
       </div>
 
       <h2>{{ $t('pages.about.team.benefits') }}</h2>
@@ -39,7 +45,10 @@
       <div class="about__team-list">
         <div class="about__team-item">
           <div class="about__team-item__image">
-            <img src="../assets/image/about__team-one.jpg" alt="Широкая зона покрытия">
+            <ImageApp
+                :path="'about__team-one.jpg'"
+                :alt="$t('pages.about.team.coverage-area')"
+            />
           </div>
 
           <div class="about__team-item__content">
@@ -50,7 +59,10 @@
 
         <div class="about__team-item">
           <div class="about__team-item__image">
-            <img src="../assets/image/about__team-two.jpg" alt="Инновационные технологии">
+            <ImageApp
+                :path="'about__team-two.jpg'"
+                :alt="$t('pages.about.team.innovative-technologies')"
+            />
           </div>
 
           <div class="about__team-item__content">
@@ -61,7 +73,10 @@
 
         <div class="about__team-item">
           <div class="about__team-item__image">
-            <img src="../assets/image/about__team-three.jpg" alt="Современная техническая база">
+            <ImageApp
+                :path="'about__team-three.jpg'"
+                :alt="$t('pages.about.team.technical-base')"
+            />
           </div>
 
           <div class="about__team-item__content">
@@ -72,7 +87,10 @@
 
         <div class="about__team-item">
           <div class="about__team-item__image">
-            <img src="../assets/image/about__team-four.jpg" alt="Надежная связь высокой отказоустойчивости">
+            <ImageApp
+                :path="'about__team-four.jpg'"
+                :alt="$t('pages.about.team.resilient-communication')"
+            />
           </div>
 
           <div class="about__team-item__content">
@@ -83,7 +101,10 @@
 
         <div class="about__team-item">
           <div class="about__team-item__image">
-            <img src="../assets/image/about__team-five.jpg" alt="Высокая квалификация специалистов">
+            <ImageApp
+                :path="'about__team-five.jpg'"
+                :alt="$t('pages.about.team.qualified-specialists')"
+            />
           </div>
 
           <div class="about__team-item__content">
@@ -100,7 +121,8 @@
       <div class="about__legal-list">
         <div class="about__legal-item">
           <span class="icon icon__adobe"></span>
-          <a href="/documents/electronic-communications-service-agreement.pdf" target="_blank" download=""><span>{{ $t('pages.about.legal.documents.service-agreement') }}</span></a>
+          <a href="/documents/electronic-communications-service-agreement.pdf" target="_blank"
+             download=""><span>{{ $t('pages.about.legal.documents.service-agreement') }}</span></a>
         </div>
       </div>
     </section>
@@ -108,8 +130,11 @@
 </template>
 
 <script>
+import ImageApp from "@/components/ImageApp";
+
 export default {
-  name: "About"
+  name: "About",
+  components: {ImageApp}
 }
 </script>
 

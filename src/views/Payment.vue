@@ -36,7 +36,10 @@
           </div>
 
           <div class="payment__instruction-image">
-            <img src="../assets/image/payment__instruction-image__one.jpg" alt="Autorizējaties internet bankā">
+            <ImageApp
+                :path="'payment__instruction-image__one.jpg'"
+                :alt="'Autorizējaties internet bankā'"
+            />
           </div>
         </div>
 
@@ -48,7 +51,10 @@
           </div>
 
           <div class="payment__instruction-image">
-            <img src="../assets/image/payment__instruction-image__two.jpg" alt="Izveidojiet maksājuma uzdevumu">
+            <ImageApp
+                :path="'payment__instruction-image__two.jpg'"
+                :alt="'Izveidojiet maksājuma uzdevumu'"
+            />
           </div>
         </div>
 
@@ -60,7 +66,10 @@
           </div>
 
           <div class="payment__instruction-image">
-            <img src="../assets/image/payment__instruction-image__three.jpg" alt="Aizpildiet laukus">
+            <ImageApp
+                :path="'payment__instruction-image__three.jpg'"
+                :alt="'Aizpildiet laukus'"
+            />
           </div>
         </div>
 
@@ -72,7 +81,10 @@
           </div>
 
           <div class="payment__instruction-image">
-            <img src="../assets/image/payment__instruction-image__four.jpg" alt="Apmaksa">
+            <ImageApp
+                :path="'payment__instruction-image__four.jpg'"
+                :alt="'Apmaksa'"
+            />
           </div>
         </div>
       </div>
@@ -88,8 +100,10 @@
           </div>
 
           <div class="payment__instruction-image">
-            <img src="../assets/image/payment__instruction-image__maxima.jpg"
-                 alt="Rēķina apmaksa tirdzniecības centrā Maxima">
+            <ImageApp
+                :path="'payment__instruction-image__maxima.jpg'"
+                :alt="'Rēķina apmaksa tirdzniecības centrā Maxima'"
+            />
           </div>
         </div>
       </div>
@@ -98,8 +112,11 @@
 </template>
 
 <script>
+import ImageApp from "@/components/ImageApp";
+
 export default {
-  name: "Payment"
+  name: "Payment",
+  components: {ImageApp}
 }
 </script>
 

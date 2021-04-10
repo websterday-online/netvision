@@ -74,6 +74,12 @@ section {
   background-color: transparent;
 }
 
+.content-container {
+  width: 100%;
+  max-width: 1145px;
+  margin: 0 auto;
+}
+
 .VueCarousel {
   height: 100%;
 }
@@ -168,6 +174,109 @@ section {
 }
 .VueCarousel .VueCarousel-pagination *:focus {
   outline: none;
+}
+
+.advantages__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+}
+@media (min-width: 550px) {
+  .advantages__list {
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .advantages__list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.advantages__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 550px) {
+  .advantages__item {
+    flex-direction: row;
+    text-align: left;
+    align-items: unset;
+  }
+}
+.advantages__image {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #e8edf0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 550px) {
+  .advantages__image {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .advantages__image {
+    width: 80px;
+    height: 80px;
+  }
+}
+.advantages__text {
+  color: #000;
+  width: 100%;
+}
+@media (min-width: 550px) {
+  .advantages__text {
+    width: calc(100% - 50px - 15px);
+  }
+}
+@media (min-width: 768px) {
+  .advantages__text {
+    width: calc(100% - 80px - 15px);
+    margin-left: 15px;
+  }
+}
+.advantages__text h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+}
+@media (min-width: 550px) {
+  .advantages__text h4 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .advantages__text h4 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .advantages__text h4 {
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 0;
+  }
+}
+.advantages__text p {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
+@media (min-width: 1024px) {
+  .advantages__text p {
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 22px;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */
